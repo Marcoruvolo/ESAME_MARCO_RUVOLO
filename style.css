@@ -1,0 +1,70 @@
+body {
+    font-family: sans-serif;
+}
+img{
+    margin: 0;
+    max-width: 100%;
+    height: auto;
+    
+}
+header{
+    background-color: #EED6BB;
+    margin: 0;
+    text-align: end;
+    height: 71px;
+    justify-content: space-around;
+}
+main img.scr{
+    margin: 0;
+    max-width: fit-content;
+    height: auto;
+}
+main h1{
+    font-size: 64px;
+}
+main h2{
+    font-size: 40px;
+    width: 659px;
+}
+main div.card{
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(minmax(30px, 1fr 1fr));
+    gap: 20px;
+    width: 400px;
+    flex-direction:column;
+}
+main div.card {
+    background: #fff;
+}
+
+main div.card img {
+    object-fit: cover;
+    height: 355px;
+    width: 470px;
+}
+main div.card h3 {
+    margin: 0;
+
+    font-size: 48px;
+
+}
+main div.card p {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 100;
+}
+main h4{
+    font-size: 64px;
+}
+main h5{
+    font-size: 32px;
+    font-weight: 100;
+    width: 840px;
+}
+
+footer{
+    text-align: center;
+    font-size: 24px;
+    font-weight:50;
+}
